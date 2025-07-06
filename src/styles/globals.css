@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  overflow-x: hidden !important;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.section-title {
+  @apply text-3xl font-bold mb-2 text-center;
+}
+
+.section-subtitle {
+  @apply w-20 h-1 bg-indigo-600 mx-auto mb-10;
+}

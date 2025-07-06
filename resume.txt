@@ -1,0 +1,95 @@
+RAFATA ALFATIH
+
+Perumahan Bintang Alam, Blok Q2 No. 6, RT.40/RW.11, Teluk Jambe Timur, Telukjambe, Telukjambe Timur, KAB. KARAWANG - TELUKJAMBE TIMUR, JAWA BARAT, ID 41361, Karawang, Jawa Barat
+rafataalfatih55@gmail.com
+Rafata Alfatih
+
+EDUCATION
+PRESIDENT UNIVERSITY, Candidate for Bachelor of Science in Computing.
+GPA 3.80 / 4.00, Sep 2023 - Present
+SMAN 1 KARAWANG, High School Diploma.
+Jun 2020 - May 2023
+WORK EXPERIENCE
+TATA, Mumbai
+Cybersecurity Analyst, Cybersecurity Analyst
+identity and access management (IAM) for Tata Consultancy Services, collaborating with a Cybersecurity Consulting team. Acquired expertise in IAM principles, cybersecurity best practices, and strategic alignment with business objectives. Delivered comprehensive documentation and presentations, showcasing the ability to communicate complex technical concepts effectively.
+Jun 2025 - Jun 2025
+Datacom, New Zealand
+Cybersecurity Consultant, Cybersecurity Consultant
+Completed a simulation focussed on how Datacom's cybersecurity team helps protect it's clients Investigated a cyberattack and produced a comprehensive report documenting findings and outlining key recommendations to improve a client's cybersecurity posture Conducted a comprehensive risk assessment
+Jun 2025 - Jun 2025
+Deloitte, Australia
+Security Operations Center (SOC) Analyst, Security Operations Center (SOC) Analyst
+reading web activity logs Supported a client in a cyber security breach Answered questions to identify suspicious user activity
+Jun 2025 - Jun 2025
+Telstra, New York
+Cybersecurity Architect, Cybersecurity Architect
+Responding to malware attack, analyzing the attack, (technical) mitigate the malware attack, incident postmortem
+Jun 2025 - Jun 2025
+AIG - Shields Up, New York
+Cybersecurity Analyst, Cybersecurity Analyst
+Researched and understood reported vulnerabilities, showcasing analytical skills in cybersecurity. Drafted a clear and concise email to guide teams on vulnerability remediation. Utilized Python skills to write a script ethical hacking, avoiding ransom payments by bruteforcing decryption keys.
+Jun 2025 - Jun 2025
+Mastercard, New York
+Cybersecurity Analyst, Cybersecurity Analyst
+I served as an analyst on Mastercard’s Security Awareness Team Helped identify and report security threats such as phishing Analyzed and identified which areas of the business needed more robust security training and implemented training courses and procedures for those teams
+Jun 2025 - Jun 2025
+PROJECTS
+Career Compass, Programmer, Project Manager
+Career Compass is an App that could help the user find a job based on their personality and their skills, with Query of psychological method, Thus no job that does not fit with the user
+Sep 2023 - May 2024
+Career Compass, Project Manager, Programmer
+Career Compass is an App that could help the user find a job based on their personality and their skills, with Query of psychological method, Thus no job that does not fit with the user
+Sep 2023 - May 2024
+BMI Calculator, Manager
+Allow the user to calculate the ideal BMI based on their height and weight
+Oct 2023 - Oct 2023
+Coffee Shop, Programmer
+Coffee Shop Website based to order and buy a coffee for the user
+Oct 2023 - Oct 2023
+Nobar, Programmer
+A Movie Reservation web based
+Dec 2023 - Present.
+Course Enrollment, Programmer
+Web based to enroll a course with Database integrated
+May 2025 - Mar 2024
+BMIHealthChecker, Programmer
+An Application to calculate BMI, giving insight and suggestion based on the result of the users
+May 2024 - May 2024
+Crime_Dashboard, Manager
+A Crime Visualization in any kind of diagram with AI built in and Plenty Analysis Options (Anomaly Detection, Cluster Analysis, Pattern Analysis Heatmap, Precision Analysis F1-Score)
+Nov 2024 - Nov 2024
+Cisco Packet Tracer 4 Departments 2 floors 2 buildings, Creator
+A Topology of how the LAN looks like and being configured using CLI
+May 2024 - May 2024
+Going to The Gym, Designer
+A Blender Project representing a 2 person going and doing workout Lowpoly, KeyFrame
+Dec 2024 - Dec 2024
+EZ_Shop, Programmer
+Java Based Application to imitate some E-Commerce Apps using Android Studio
+Dec 2024 - Dec 2024
+Rice Import Prediction based Diagram, Manager
+A python program to create a diagram and let us to see any kind of inaccuracy result by trial and error to see prediction result
+Dec 2024 - Dec 2024
+Security Risk Management, Manager
+- Track their security projects - Manage and assess security risks for different assets - Perform security scans using VirusTotal - Maintain a record of security assessments and their results The system is designed to help security professionals and organizations maintain a structured approach to security risk management by providing a centralized platform for tracking projects, assets, and their associated security risks.
+Feb 2025 - Feb 2025
+CTF, Member
+A CTF Challenges that goes for a week for 5 phases
+Mar 2025 - Mar 2025
+Digital Forensic Autopsy, Investigator
+We investigate the cases of "Operation Rembrandt Ruse" and "Miami" Disc File
+Feb 2024 - May 2025
+Human Trafficking Case of Daniel Vega, Investigator
+A murder Case by Suspect named Daniel Vega
+Apr 2025 - May 2025
+SKILLS & CERTIFICATES
+Skills:
+Software Development.
+Certificates:
+UI/UX Competition, (COMPSPHERE), Internship & Job Preparation, (Wiwin Widianingsih, S.H., LL.M.), Workshhop Leveraging the Power of Machine Learning : Practical Insight and Hands-on Excersice, (COMPSPHERE), Seminar Hyperautomation: Introducing AI and RPA for Competitive Advantage in the Digital Era, (COMPSPHERE), Future Leaders : Empowering Global Change with UN Guidance, (PCIL), Interact, (PUSU), HackFinity Battle, (TryHackMe), Introduction to Cloud and Artificial Intelligence Applications for Digital Business, (Digital Talent Scholarship) Score: 93.84%, Company Visits, (Lucia Revelien F.), Motivation Letter Competition SejutaCita Future Leaders Chapter 8: Japan 2024, (SejutaCita Future Leader), Facing Career Challenges in 2025 to Strengthen Youth Generation Future, (Orbit Future Academy), Datacom - Cybersecurity Job Simulation, (Forage), AIG Shields Up: Cybersecurity Job Simulation, (Forage), Mastercard - Cybersecurity Job Simulation, (Forage), Telstra - Cybersecurity Job Simulation, (Forage), Deloitte - Cyber Job Simulation, (Forage), TATA - Cybersecurity Job Simulation, (Forage), Awareness of Social Cyber Attack in Educational Settings: Insights from BSSN Incidents, Practical Tips & Tricks, and Reporting Mechanism, (BSSN), Seminar Hyperautomation: Introducing AI and RPA for Competitive Advantage in the Digital Era, (COMPSPHERE), Workshhop Leveraging the Power of Machine Learning : Practical Insight and Hands-on Excersice, (COMPSPHERE), Introduction to Cloud and Artificial Intelligence Applications for Digital Business, (Kementrian Komdigi), Cyber Literacy Workshop, (BSSN), Intership & Job Preparation, (Wiwin Widianingsih, S.H., LL.M.).
+LANGUAGE
+PROFICIENCIES
+English (Intermediate)/Cambridge English (Score: 145)
+PERSONAL
+A proactive Cybersecurity undergraduate with a strong foundation in secure software development. Demonstrates practical expertise through extensive job simulations, excelling in incident response by analyzing malware attacks, conducting vulnerability triage, and performing ethical hacking with Python. Adept at utilizing security tools like Nmap, Wireshark, Splunk, and Burp Suite for network analysis and threat identification. Proven skills in Identity and Access Management (IAM) and risk assessment, eager to apply a unique blend of development and defensive security knowledge to solve complex, real-world cybersecurity challenges
