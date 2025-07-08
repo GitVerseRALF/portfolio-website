@@ -4,6 +4,9 @@ import { FitAddon } from 'xterm-addon-fit';
 import { WebLinksAddon } from 'xterm-addon-web-links';
 import 'xterm/css/xterm.css';
 
+const MATRIX_CHARS = '日ﾊﾐﾋｰｳｼﾅﾓﾆｻﾜﾂｵﾘｱﾎﾃﾏｹﾒｴｶｷﾑﾕﾗｾﾈｽﾀﾇﾍ012345789Z:・.";=*+-<>¦｜╌';
+const MATRIX_COLORS = ['\x1b[32m', '\x1b[92m']; // Green shades
+
 const TerminalComponent = () => {
   const terminalRef = useRef<HTMLDivElement>(null);
   const terminal = useRef<Terminal | null>(null);
@@ -211,8 +214,6 @@ const TerminalComponent = () => {
         const parts = raw.trim().split(/\s+/);
         const isSudo = parts[0] === 'sudo';
         const cmdName = isSudo ? parts[1] : parts[0];
-
-        // FIX 1: Definisikan 'args' untuk menampung argumen
         const args = parts.slice(isSudo ? 2 : 1);
 
         // Deny if it's protected but not prefixed with sudo
@@ -249,6 +250,7 @@ const TerminalComponent = () => {
             break;
           case 'matrix':
             term.writeln('Entering the Matrix…');
+            startMatrixAnimation(term); // Panggil fungsi animasi di sini
             break;
           case 'scan':
             term.writeln('Scanning network… \x1b[1;32mComplete\x1b[0m');
@@ -395,17 +397,34 @@ const TerminalComponent = () => {
 
           case 'fontsize': {
             const fontArgs = raw.split(' ');
+            let currentSize = term.options.fontSize || 14;
+            let newSize = currentSize;
+
             if (fontArgs.length < 2) {
-              term.writeln('Usage: fontsize <size> (10-20)');
+              term.writeln('Usage: fontsize <size|default|bigger|smaller> (10-20)');
             } else {
-              const size = parseInt(fontArgs[1]);
-              if (size >= 10 && size <= 20) {
-                term.writeln(`\x1b[1;32mChanging font size to ${size}px...\x1b[0m`);
-                term.options.fontSize = size;
-                fitAddon.fit();
+              const arg = fontArgs[1].toLowerCase();
+              if (arg === 'default') {
+                newSize = 14;
+              } else if (arg === 'bigger') {
+                newSize = Math.min(currentSize + 2, 20);
+              } else if (arg === 'smaller') {
+                newSize = Math.max(currentSize - 2, 10);
+              } else if (!isNaN(Number(arg))) {
+                const size = parseInt(arg);
+                if (size >= 10 && size <= 20) {
+                  newSize = size;
+                } else {
+                  term.writeln('\x1b[1;31mFont size must be between 10-20\x1b[0m');
+                  break;
+                }
               } else {
-                term.writeln('\x1b[1;31mFont size must be between 10-20\x1b[0m');
+                term.writeln('Usage: fontsize <size|default|bigger|smaller> (10-20)');
+                break;
               }
+              term.options.fontSize = newSize;
+              fitAddon.fit();
+              term.writeln(`\x1b[1;32mFont size set to ${newSize}px\x1b[0m`);
             }
             break;
           }
@@ -482,7 +501,6 @@ GitHub: github.com/GitVerseRALF
               setTimeout(() => term.writeln(`> ${step}`), idx * 500);
             });
             break;
-
           case 'scan':
             term.writeln('Starting network scan:');
             ['192.168.0.1', '192.168.0.5', '192.168.0.10'].forEach((ip, i) => {
@@ -568,6 +586,45 @@ GitHub: github.com/GitVerseRALF
             term.writeln('Type "help" for a full list of commands.');
             break;
         }
+      };
+
+      const startMatrixAnimation = (term: Terminal) => {
+        let animationFrame: number;
+        let columns: number[] = [];
+        const rows = term.rows;
+        const cols = term.cols;
+
+        for (let i = 0; i < cols; i++) {
+          columns[i] = 0;
+        }
+
+        const drawMatrix = () => {
+        for (let col = 0; col < cols; col++) {
+            if (columns[col] > 0) {
+                const color = MATRIX_COLORS[Math.floor(Math.random() * MATRIX_COLORS.length)];
+                const char = MATRIX_CHARS[Math.floor(Math.random() * MATRIX_CHARS.length)];
+                term.write(`\x1b[${columns[col]};${col + 1}H${color}${char}\x1b[0m`);
+                if (columns[col] >= rows) {
+                    columns[col] = 0;
+                } else {
+                    columns[col]++;
+                }
+            } else if (Math.random() < 0.02) {
+                columns[col] = 1;
+            }
+        }
+        animationFrame = requestAnimationFrame(drawMatrix);
+    };
+
+    term.clear();
+    drawMatrix();
+
+        setTimeout(() => {
+          cancelAnimationFrame(animationFrame);
+          term.write('\x1b[H\x1b[J');
+          term.writeln('\x1b[1;32mMatrix simulation complete.\x1b[0m');
+          writePrompt(); 
+}, 10000);
       };
 
       const handleResize = () => {

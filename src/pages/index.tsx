@@ -1033,7 +1033,7 @@ const Portfolio = () => {
               <h2 className="section-title text-white">Interactive Terminal</h2>
               <div className="section-subtitle bg-white"></div>
               <p className="text-center text-gray-300 mb-10">
-                Explore my portfolio through the command line
+                Explore my portfolio through the command line or discover something interesting
               </p>
               <Terminal />
             </motion.div>
